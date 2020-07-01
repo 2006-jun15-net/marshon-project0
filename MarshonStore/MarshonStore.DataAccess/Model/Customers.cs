@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace DataAccess.Model
+namespace MarshonStore.DataAccess.Model
 {
-    public partial class Customer
+    public partial class Customers
     {
-        public Customer()
+        public Customers()
         {
-            Orders = new HashSet<Orders>(); //instantiate a collection for orders
+            Orders = new HashSet<Orders>(); //
         }
 
         public int CustomerId { get; set; }

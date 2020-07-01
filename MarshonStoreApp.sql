@@ -54,8 +54,16 @@ CREATE TABLE OrderHistory(
 */
 
 
+/**
+insert into Products (ProductName, ProductPrice) values ('Phone', 200);
+insert into Products (ProductName, ProductPrice) values ('Eraser', 2);
+insert into Products (ProductName, ProductPrice) values ('Pencil', 1);
+**/
 
+/**
+insert into Stores (StoreName, StoreLocation) values ('Mart1', 'Gaithersburg');
+insert into Stores (StoreName, StoreLocation) values ('Mart2', 'New Market');
+insert into Stores (StoreName, StoreLocation) values ('Mart3', 'Frederick');
+**/
 
-/* Populate table with inserts here
-
-*/
+select * from Orders
